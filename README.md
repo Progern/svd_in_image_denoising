@@ -4,6 +4,17 @@
 
 *Images* - source images used in research and evaluation.
 
+*Metrics*:
+- [Frobenius distance](https://en.wikipedia.org/wiki/Matrix_norm#Frobenius_norm)
+- [PSNR](https://en.wikipedia.org/wiki/Peak_signal-to-noise_ratio)
+
+*Implemented filters*:
+- [K-SVD](https://github.com/Progern/svd_in_image_denoising/blob/master/k_svd.ipynb)
+- [Non-negative matrix factorization (NMF)](https://github.com/Progern/svd_in_image_denoising/blob/master/NMF.ipynb)
+- [Gaussian filter](https://github.com/Progern/svd_in_image_denoising/blob/master/gaussian_filter.ipynb)
+- [Non-local means filter (NLM)](https://github.com/Progern/svd_in_image_denoising/blob/master/nlm.ipynb)
+- [Principal Component Analysis (PCA)](https://github.com/Progern/svd_in_image_denoising/blob/master/PCA.ipynb)
+
 Each IPython notebook represents an independent research about efficiency of separate denoising method.
 
 ## How to reproduce
